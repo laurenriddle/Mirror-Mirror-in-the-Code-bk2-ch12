@@ -1,3 +1,15 @@
-body {
-    background-color: aquamarine;
+#articleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#article1 {
+    border: 2px solid aquamarine;
+    flex-basis: 50%;
+    margin: 10px;
+}
+#article2 {
+    border: 2px solid yellow;
+    flex-basis: 50%;
+    margin: 10px;
 }
